@@ -7,7 +7,7 @@ int main()
 	setlocale(LC_ALL, "Rus");
 	srand(time(NULL));
 	int SIZE;
-	cout << "Ââåäèòå êîëè÷åñòâî îöåíîê: ";
+	cout << "Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ ÃªÃ®Ã«Ã¨Ã·Ã¥Ã±Ã²Ã¢Ã® Ã®Ã¶Ã¥Ã­Ã®Ãª: ";
 	cin >> SIZE;
 	int* mark = new int[SIZE];
 	int funf = 0;
@@ -33,10 +33,10 @@ int main()
 			zwei++;
 		
 	}
-	cout << "Ïÿò¸ðêè: " << funf << endl;
-	cout << "×åòâ¸ðêè: " << fier << endl;
-	cout << "Òðîéêè: " << drei << endl;
-	cout << "Äâîéêè: " << zwei << endl;
+	cout << "ÃÃ¿Ã²Â¸Ã°ÃªÃ¨: " << funf << endl;
+	cout << "Ã—Ã¥Ã²Ã¢Â¸Ã°ÃªÃ¨: " << fier << endl;
+	cout << "Ã’Ã°Ã®Ã©ÃªÃ¨: " << drei << endl;
+	cout << "Ã„Ã¢Ã®Ã©ÃªÃ¨: " << zwei << endl;
 	delete[] mark;
 	return 0;
 }
